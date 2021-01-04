@@ -1,33 +1,16 @@
-# hackernews-async-ts
+# SpiderUgcSimple
 
-[Hacker News](https://news.ycombinator.com/) showcase using typescript && egg
-
-## QuickStart
-
-### Development
-
+# dev
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+yarn
+yarn run clean
+yarn run dev
 ```
 
-Don't tsc compile at development mode, if you had run `tsc` then you need to `npm run clean` before `npm run dev`.
-
-### Deploy
+# deploy
 
 ```bash
-$ npm run tsc
-$ npm start
+yarn
+yarn run tsc
+yarn run start
 ```
-
-### Npm Scripts
-
-- Use `npm run lint` to check code style
-- Use `npm test` to run unit test
-- se `npm run clean` to clean compiled js at development mode once
-
-### Requirement
-
-- Node.js 8.x
-- Typescript 2.8+
