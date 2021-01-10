@@ -26,7 +26,7 @@ export default class wechatMp extends Service {
         title: $("meta[property='og:title']").attr('content'),
         description: $("meta[property='og:description']").attr('content'),
         url: $("meta[property='og:url']").attr('content'),
-        image: $("meta[property='og:image']").attr('content'),
+        cover: $("meta[property='og:image']").attr('content'),
         article_author: $("meta[property='og:article:author']").attr('content'),
         number_read: 0,
         number_like: 0,
